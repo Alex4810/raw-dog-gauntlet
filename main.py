@@ -63,7 +63,7 @@ def clear_screen():
 print("\nWelcome to the Dankest Dungeon!\n"+
 "Your adventure awaits!\n"+
 "Are you ready?")
-result = input("y or n")
+result = input("y or n\n")
 match result:
     case "y":
         print("Your adventure awaits!")
